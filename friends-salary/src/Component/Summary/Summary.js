@@ -1,4 +1,5 @@
 import React from 'react';
+import './Summary.css'
 
 const Summary = (props) => {
     const cart = props.cart;
@@ -13,7 +14,7 @@ const Summary = (props) => {
 
     
     return (
-        <div className='container-fluid'>
+        <div className='container-fluid summary'>
             <h5>Summary Of Yearly Income</h5>
             <h6>Friends Added: {cart.length}</h6>
             <h6>Income: {totalIncome}</h6>

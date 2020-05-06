@@ -29,6 +29,7 @@ const Body = () => {
                     </Card> )
                 }
             </div>
+            
             <div className='card-side'>
                 <Summary 
                 cart={cart}>

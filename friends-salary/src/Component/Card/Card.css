@@ -9,3 +9,7 @@
 .card-body .right{
     margin-left: 30px;
 }
+.card-body .right button{
+    width: 50px;
+    border-radius: 20px;
+}
