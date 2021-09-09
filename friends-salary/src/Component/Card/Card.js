@@ -6,6 +6,7 @@ import { faUserPlus } from '@fortawesome/free-solid-svg-icons';
 const Card = (props) => {
 
     const { img, name, mobile, job, age, income, address, zipCode, email} = props.friend;
+    //property as props
 
     return (
 
